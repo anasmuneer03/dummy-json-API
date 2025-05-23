@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-var user = {
-  name: "tariq",
-  age: 31,
-  email: "tariq@gmail.com",
-  city: "qalqilia"
-};
-
-document.getElementById("name").textContent = user.name;
-document.getElementById("age").textContent = user.age;
-document.getElementById("email").textContent = user.email;
-document.getElementById("city").textContent = user.city;
-=======
 async function geCategories(){
     try{
     const {data}= await axios.get("https://dummyjson.com/products/category-list");
@@ -51,4 +38,3 @@ async function getFiveProducts() {
 
 geCategories();
 getFiveProducts();
->>>>>>> 3c56d3c (dummy json API)
