@@ -1,0 +1,69 @@
+<<<<<<< HEAD
+.mode{
+    background-color: black;
+    color: white;
+}
+=======
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: calc(100%-70px);
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-direction-col{
+    flex-direction: column;
+}
+
+.gap-15{
+    gap: 15px;
+}
+.loader-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.loader {
+  width: 50px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 8px solid lightblue;
+  border-right-color: orange;
+  animation: l2 1s infinite linear;
+}
+@keyframes l2 {to{transform: rotate(1turn)}}
+.d-none{
+    display: none;
+}
+.header{
+    background-color: darkkhaki;
+    padding: 15px 0;
+}
+.header a{
+    color: brown;
+}
+.text-danger{
+    color: red;
+}
+.categs, .Prods{
+    padding: 17px;
+}
+>>>>>>> 3c56d3c (dummy json API)
