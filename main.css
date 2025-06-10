@@ -17,6 +17,7 @@ a{
 .d-flex{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .flex-direction-col{
     flex-direction: column;
@@ -43,9 +44,6 @@ a{
   border-right-color: orange;
   animation: l2 1s infinite linear;
 }
-.d-none{
-    display: none;
-}
 .header{
     background-color: darkkhaki;
     padding: 15px 0;
@@ -56,6 +54,69 @@ a{
 .text-danger{
     color: red;
 }
-.categs, .Prods{
-    padding: 17px;
+.categs,.prods{
+    padding: 25px 0px;
+    text-align: center;
+}
+.categories{
+    text-align: center;
+}
+.category{
+    width: 30%;
+    border: 1px solid rgb(223, 223, 223);
+    text-align: center;
+    padding: 30px;
+}
+.product{
+    width: 30%;
+    border: 1px solid rgb(223, 223, 223);
+    text-align: center;
+    padding: 30px;
+}
+.my-modal{
+    background-color: rgba(0, 0, 0, .6);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.my-modal .img{
+    background-color: #fff;
+    padding: 50px 100px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px 20px rgba(0, 0, 0, .8);
+    position: relative;
+}
+.my-modal img{
+    width: 350px;
+    user-select: none;
+}
+.arrow-left-btn,
+.arrow-right-btn,
+.x-btn{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 7px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.arrow-left-btn{
+    left: 35px;
+    top: 50%;
+}
+.arrow-right-btn{
+    right: 35px;
+    top: 50%;
+}
+.x-btn{
+    top: 20px;
+    right: 20px;
+}
+.d-none{
+    display: none;
 }
