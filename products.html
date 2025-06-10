@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Products</title>
-    <link rel="stylesheet" href="./main.css">
-</head>
-<body>
-  <div class="loader-parent">
-    <div class="loader"></div> 
+    <link rel="stylesheet" href="./main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="loader-parent">
+      <div class="loader"></div>
     </div>
     <header class="header">
       <div class="container">
@@ -25,15 +32,21 @@
       </div>
     </header>
     <main>
-      <div class="text-danger">
-      </div>
-        <section class="Prods">
+      <div class="text-danger"></div>
+      <section class="prods">
         <h1>Products</h1>
-        <div class="Products d-flex gap-15 flex-direction-col"></div>
-        </section>
+        <div class="Products d-flex gap-15"></div>
+      </section>
     </main>
-
+    <div class="my-modal d-none">
+      <div class="img">
+        <i class="fa-solid fa-arrow-left arrow-left-btn"></i>
+        <img src="" class="modal-img" alt="" />
+        <i class="fa-solid fa-arrow-right arrow-right-btn"></i>
+        <i class="fa-solid fa-x x-btn"></i>
+      </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="./products.js"></script>
-</body>
+  </body>
 </html>
